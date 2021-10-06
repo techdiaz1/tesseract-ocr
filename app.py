@@ -17,4 +17,4 @@ if uploaded_file is not None:   #only if a file is uploaded, then perform the be
   if st.button('PREDICT'):  #creates a button called predict and gives the ocr output below 
     st.write("Result:")     
     info = pytesseract.image_to_string(img)  #performs ocr 
-    st.write(info)                   #prints the result 
+    st.write(info)                   #prints the result    
